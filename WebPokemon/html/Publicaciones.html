@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones</title>
+    <link rel="stylesheet" href="../css/stylePublicaciones.css">
+    <link rel="icon" href="../img/IconoPokeball.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="../img/MiniPokeball.png" alt="MiniPokeball" class="mini-pokeball">
+    <header>
+        <img src="../img/InterfazPublicaciones/LogoPokedex.png" alt="Logo Pokedex">
+        <div class="buscador">
+            <input type="search" placeholder="Buscar Pokémon" class="barra-busqueda">
+            <button class="btn-buscar"><img src="../img/InterfazPublicaciones/BtnBuscar.png" alt="BuscarPokemon"></button>
+        </div>  
+    </header>
+    <main>
+        <img src="../img/InterfazPublicaciones/As.png" alt="As">
+        <div class="informacion-pokemon">
+            <button class="btn-movimiento" id="btn-izq"><img src="../img/InterfazPublicaciones/BtnMoverIzq.png" alt=""></button>
+            <div class="tarjeta-pokemon">
+
+            </div>
+            <button class="btn-movimiento" id="btn-drch"><img src="../img/InterfazPublicaciones/BtnMoverDrch.png" alt=""></button>
+        </div>
+        <img src="../img/InterfazPublicaciones/Pokeball.png" alt="Pokeball">
+    </main>
+
+    <script src="../js/HttpClass.js"></script>
+    <script src="../js/constantes.js"></script>
+    <script src="../js/CargarPokemon.js"></script>
+</body>
+</html>
